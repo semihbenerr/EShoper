@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F09E0CB5-500F-4C16-B1E0-6443AA47EABE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catolog", "Catolog", "{E4F66835-CFF5-45EB-B3C0-C4055A5D8482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Catolog", "Services\Catolog\EShopper.Catolog\EShopper.Catolog.csproj", "{A04BF1E5-01E2-4136-ABF1-D86C1F9E42DD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A04BF1E5-01E2-4136-ABF1-D86C1F9E42DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04BF1E5-01E2-4136-ABF1-D86C1F9E42DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04BF1E5-01E2-4136-ABF1-D86C1F9E42DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04BF1E5-01E2-4136-ABF1-D86C1F9E42DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4F66835-CFF5-45EB-B3C0-C4055A5D8482} = {F09E0CB5-500F-4C16-B1E0-6443AA47EABE}
+		{A04BF1E5-01E2-4136-ABF1-D86C1F9E42DD} = {E4F66835-CFF5-45EB-B3C0-C4055A5D8482}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9440362F-15E7-46B1-8283-CD6C97A96988}
